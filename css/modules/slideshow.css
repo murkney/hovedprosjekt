@@ -70,6 +70,10 @@
 }
 
 /* The dots/bullets/indicators */
+.dot__container {
+	text-align: center;
+}
+
 .dot {
 	cursor: pointer;
 	height: 15px;
