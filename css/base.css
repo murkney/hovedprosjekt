@@ -1,0 +1,37 @@
+body {
+	background-color: var(--primary-color);
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--secondary-color);
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	background: inherit;
+	border: 0;
+	cursor: pointer;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+a:visited {
+	text-decoration: none;
+	color: var(--secondary-color);
+}

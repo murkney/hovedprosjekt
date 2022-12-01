@@ -1,0 +1,26 @@
+:root {
+	--primary-color: #edf2fc;
+	--secondary-color: #212121;
+
+	--dark: #374151;
+	--darker: #1f2937;
+	--darkest: #111827;
+	--gray: #6b7280;
+	--light: #eee;
+	--pink: #ec4899;
+	--purple: #8b5cf6;
+}
+
+.dark-mode {
+	--primary-color: #000106;
+	--secondary-color: #fff;
+
+	--dark: #374151;
+	--darker: #1f2937;
+	--darkest: #111827;
+	--gray: #6b7280;
+	--light: #eee;
+	--pink: #ec4899;
+	--purple: #8b5cf6;
+}
+

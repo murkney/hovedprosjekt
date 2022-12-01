@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MCVV</title>
+
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/modules/task.css">
+		<script type="module" src="./js/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="navbar__container">
+					<a href="./index.html" id="navbar__logo">
+					MCVV</a>
+					<div class="navbar__toggle" id="mobile-menu">
+						<span class="bar"></span> <span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+					<ul class="navbar__menu">
+						<li class="navbar__item">
+							<a href="./index.html" class="navbar__links">
+								<div>Home</div>
+							</a>
+						</li>
+						<li class="navbar__item">
+							<a href="./task-list.html" class="navbar__links">
+								<div>Task</div>
+							</a>
+						</li>
+						<li class="navbar__item">
+							<a href="./calculator.html" class="navbar__links">
+								<div>Calculator</div>
+							</a>
+						</li>
+						<li class="navbar__button">
+							<a href="./sign-in.html" class="navbar__button-sign">
+								<div>Sign-In</div>
+							</a>
+						</li>
+						<div class="theme__container">
+							<img src="./assets/icons/moon.png" id="icon">
+						</div>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<div class="task__conatainer">
+				<div class="task__header">
+					<h1>Task List</h1>
+					<form id="new-task-form">
+						<input 
+							type="text"
+							id="new-task-input"
+							placeholder="New task">
+						<input 
+							type="submit"
+							id="new-task-submit"
+							value="Add task">
+					</form>
+				</div>
+				<div class="task__main">
+					<section class="task-list">
+						<h2>Ongoing Tasks</h2>
+						<div id="tasks"></div>
+					</section>
+				</div>
+			</div>	
+		</main>
+
+		<footer></footer>
+	</body>
+</html>
