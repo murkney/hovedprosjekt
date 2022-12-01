@@ -4,12 +4,11 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>MCVV</title>
+		<title>CREATECH</title>
 
 		<link rel="stylesheet" href="./css/main.css">
 		<link rel="stylesheet" href="./css/modules/slideshow.css">
 		<script type="module" src="./js/main.js"></script>
-		<!-- <script type="module" src="./js/modules/slideshow.js"></script> -->
 	</head>
 	<body>
 		<header>
@@ -56,7 +55,7 @@
 
 			<section class="slideshow__container">				
 				
-				<figure class="slideshow__images fade">
+				<figure class="slideshow__images slideshow__images--active fade ">
 					<div class="slideshow__image--number"> 
 						<div class="number__white"> 1 / 3 </div>
 					</div>
@@ -83,17 +82,26 @@
 			</section>
 
 			<!-- Next & previous buttons -->
-			<button class="previous" onclick="plusSlides(-1)">&#10094;</button>
-			<button class="next" onclick="plusSlides(1)">&#10095;</button>
+			<!-- <button class="previous" onclick="plusSlides(-1)">&#10094;</button>
+			<button class="next" onclick="plusSlides(1)">&#10095;</button> -->
+
+			<button class="previous">&#10094;</button>
+			<button class="next">&#10095;</button>
 			
 			<!-- The dots/circles -->			
-			<div style="text-align:center">
+			<!-- <div style="text-align:center">
 				<span class="dot" onclick="currentSlide(1)"></span>
 				<span class="dot" onclick="currentSlide(2)"></span>
 				<span class="dot" onclick="currentSlide(3)"></span>
+			</div> -->
+
+			<div style="text-align:center">
+				<span class="dot dot--active"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
 			</div>
 
-			<script src="./js/modules/slideshow.js"></script>
+			<script src="./js/modules/slideshow2.js"></script>
 
 		</main>
 
