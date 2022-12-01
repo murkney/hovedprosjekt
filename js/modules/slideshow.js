@@ -6,7 +6,6 @@ export default function Slideshow() {
 
 	/* Query selectors */
 
-	const slideshow = document.querySelector('.slideshow__container');
 	const slideshowSlides = document.querySelectorAll('.slideshow__images');
 	const slideshowDots = document.querySelectorAll('.dot');
 	const buttonPrevious = document.querySelector('.previous');
