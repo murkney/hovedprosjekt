@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="./css/main.css">
 		<link rel="stylesheet" href="./css/modules/slideshow.css">
 		<script type="module" src="./js/main.js"></script>
+		<!-- <script type="module" src="./js/modules/slideshow.js"></script> -->
 	</head>
 	<body>
 		<header>
@@ -31,6 +32,11 @@
 								<div>Task</div>
 							</a>
 						</li>
+						<li class="navbar__item">
+							<a href="./slideshow.html" class="navbar__links">
+								<div>Slideshow</div>
+							</a>
+						</li>
 						<li class="navbar__button">
 							<a href="./sign-in.html" class="navbar__button-sign">
 								<div>Sign-In</div>
@@ -43,8 +49,6 @@
 				</div>
 			</nav>
 		</header>
-
-		<hr>
 
 		<main>
 
@@ -64,8 +68,7 @@
 					<div class="slideshow__image--number"> 
 						<div class="number__white"> 2 / 3 </div>
 					</div>
-					<img src="./assets/images/1200px/joe-burr-cqdC7nVkgdE-unsplash.jpg" 
-					style="width:100%">
+					<img src="./assets/images/1200px/joe-burr-cqdC7nVkgdE-unsplash.jpg">
 					<figcaption class="slideshow__figcaption">Joe Burr, Unsplash</figcaption>
 				</figure>
 
@@ -73,8 +76,7 @@
 					<div class="slideshow__image--number"> 
 						<div class="number__black"> 3 / 3 </div>
 					</div>	
-					<img src="./assets/images/1200px/wolfgang-hasselmann-Jo0YFmHBxw4-unsplash.jpg" 
-					style="width:100%">
+					<img src="./assets/images/1200px/wolfgang-hasselmann-Jo0YFmHBxw4-unsplash.jpg">
 					<figcaption class="slideshow__figcaption">Wolfgang Hasselmann, Unsplash</figcaption>
 				</figure>
 
@@ -94,11 +96,8 @@
 				<span class="dot" onclick="currentSlide(3)"></span>
 			</div>
 
-			<!-- <div style="text-align:center">
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
-			</div> -->
+			<script src="./js/modules/slideshow.js"></script>
+
 			<hr>
 
 		</main>

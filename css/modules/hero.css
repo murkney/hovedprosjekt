@@ -1,0 +1,13 @@
+.headline__container {
+	margin: 15rem auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.headline__main {
+	color: var(--secondary-color);
+	font-family: 'Movement VN';
+	font-size: 12rem;
+}
