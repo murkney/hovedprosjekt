@@ -24,12 +24,7 @@
 }
 
 #navbar__logo {
-	background-color: var(--secondary-color);
-	background-size: 100%;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-moz-text-fill-color: transparent;
+	background-color: var(--primary-color);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -41,7 +36,7 @@
 
 .navbar__menu {
 	display: flex;
-	/* justify-content: space-evenly; */
+	justify-content: center;
 	align-items: center;
 	list-style: none;
 	text-align: center;
