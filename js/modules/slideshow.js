@@ -86,3 +86,4 @@ export default function Slideshow() {
 		slideshowDots[currentSlideIndex].classList.add('dot--active');
 	};
 };
+
