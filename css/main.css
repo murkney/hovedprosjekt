@@ -3,5 +3,6 @@
 @import './fonts.css';
 @import './base.css';
 
+@import './modules/collapsible.css';
 @import './modules/footer.css';
 @import './modules/header.css';

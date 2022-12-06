@@ -1,0 +1,23 @@
+.collapsible {
+	display: flex;
+	flex-flow: row-reverse;
+	margin: 2.5rem;
+}
+
+.collapsible__toggle { 
+	color: var(--secondary-color);
+	text-align: center;
+	width: 100%;
+}
+
+.collapsible__content {
+	margin: 2.5rem;
+	margin-top: 8rem;
+	border: 2px solid lightgray;
+	display: none;
+}
+
+.collapsible__content--visible {
+	display: block;
+}
+
