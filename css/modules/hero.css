@@ -11,3 +11,14 @@
 	font-family: 'Movement VN';
 	font-size: 12rem;
 }
+
+@media screen and (max-width: 960px) {
+	
+	.headline__main {
+		font-size: 6rem;
+	}
+
+	.headline__container p {
+		font-size: 1.5rem;
+	}
+}
