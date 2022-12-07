@@ -71,7 +71,7 @@ ul.navbar__menu li.navbar__item ul.navbar__dropdown li {
 
 ul li ul.navbar__dropdown {
 	width: 100%;
-	/* background: var(--secondary-color); */
+	background: var(--primary-color);
 	position: absolute;
 	z-index: 999;
 	display: none;
@@ -112,7 +112,7 @@ ul li:hover ul.navbar__dropdown {
 }
 
 #icon {
-	width: 40px;
+	width: 35px;
 	cursor: pointer;
 }
 
@@ -220,6 +220,10 @@ ul li:hover ul.navbar__dropdown {
 		width: 100%;
 		display: table;
 		color: var(--secondary-color);
+	}
+
+	ul li:hover ul.navbar__dropdown {
+		display: none;
 	}
 
 	#mobile-menu {

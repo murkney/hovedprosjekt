@@ -1,5 +1,5 @@
 .task__conatainer {
-	margin: 5rem auto;
+	margin: 10rem auto;
 	display: flex;
 	flex-direction: column;
 	background: var(--primary-color);
