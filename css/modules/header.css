@@ -111,7 +111,7 @@ ul li:hover ul.navbar__dropdown {
 	width: 100%;
 }
 
-#icon {
+.icon {
 	width: 35px;
 	cursor: pointer;
 }
