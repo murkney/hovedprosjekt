@@ -132,7 +132,7 @@ ul li:hover ul.navbar__dropdown {
 }
 
 .navbar__button-sign div {
-	/* transition: 0.5s; */
+	transition: 0.5s;
 }
 
 .navbar__button-sign:hover {
