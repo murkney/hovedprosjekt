@@ -4,3 +4,40 @@
 	padding: 0;
 }
 
+button {
+	font: inherit;
+	color: inherit;
+	background: inherit;
+	border: 0;
+	cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: var(--secondary-color);
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+a:visited {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+/* a, a:visited, .footer__navigation--item {
+	text-decoration: none;
+	color: #f2f2f2;
+} */
+
+
+

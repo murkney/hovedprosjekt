@@ -1,6 +1,9 @@
 export default function Tasks() {
-	
+
+	let taskStorage = localStorage.getItem('');
+
 	window.addEventListener('load', taskList);
+	// taskStorage.localStorage.getItem("tasks", input.value);
 
 	function taskList() {
 		const form = document.querySelector("#new-task-form");
@@ -15,7 +18,9 @@ export default function Tasks() {
 				event.preventDefault();
 	
 				const task = input.value;
-	
+				
+				localStorage.setItem("tasks", input.value);
+
 				if (!task) {
 					alert("Please fill out the task");
 					return;
@@ -36,6 +41,7 @@ export default function Tasks() {
 				taskInputElement.type = "text";
 				taskInputElement.value = task;
 				taskInputElement.setAttribute("readonly", "readonly");
+				
 	
 				taskContentElement.appendChild(taskInputElement);
 	
@@ -76,38 +82,11 @@ export default function Tasks() {
 				taskDeleteElement.innerHTML = "Delete";
 
 				taskActionsElement.appendChild(taskDeleteElement);
-	
 				taskDeleteElement.addEventListener('click', toggleDeleteButton);
 				
 				function toggleDeleteButton() {
 					listElement.removeChild(taskElement);
 				};
-
-				// Local storage:
-
-				// let storeLocally = storeTasksLocally();
-				// storeLocally.localStorage.setItem(key, value);
-
-				// function storeTasksLocally() {
-				// 	const key = 'task_list'
-				// 	const value = JSON.stringify(task);
-					
-				// 	window.localStorage.setItem(key, value);
-				// };
-
-				// let getStorage = getLocalTasks();
-				// getStorage.localStorage.getItem();
-
-				// function getLocalTasks() {
-				// 	const key = 'task_list'
-				// 	const tasksAsString = window.localStorage.getItem(key, value);
-
-				// 	if (tasksAsString) {
-				// 		return JSON.parse(tasksAsString);
-				// 	} else {
-				// 		return [];
-				// 	};
-				// };
 			};
 		};
 	};
