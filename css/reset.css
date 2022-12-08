@@ -29,15 +29,10 @@ a {
 	color: var(--secondary-color);
 }
 
-a:visited {
+a, a:visited {
 	text-decoration: none;
 	color: var(--secondary-color);
 }
-
-/* a, a:visited, .footer__navigation--item {
-	text-decoration: none;
-	color: #f2f2f2;
-} */
 
 
 

@@ -59,6 +59,7 @@ ul li a {
 	display: block;
 	padding: 20px 25px;
 	color: #fff;
+	/* color: var(--primary-color); */
 	text-decoration: none;
 	text-align: center;
 	font-size: 20px;
